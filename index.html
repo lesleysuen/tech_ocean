@@ -1,0 +1,248 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+	<title> The Tech Ocean </title> 
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css"rel="stylesheet">
+	<script src="js/index.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  	<script src="js/jquery.flexslider.js"></script>
+  	<script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+  	<script src="js/jquery.bootstrap-autohidingnavbar.js"></script>
+  	<script type="text/javascript" charset="utf-8">
+  		$(window).load(function() {
+    	$('.flexslider').flexslider();});
+	</script>
+	<script>$("div.navbar-fixed-top").autoHidingNavbar();</script> 
+	
+
+</head> 
+
+<body> 
+	<header> 
+
+	<div id="header-wrap">
+    <div id="header" class="clear">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  	<div class="container-fluid">
+		   	
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      
+			      <img class="navbar-brand" href="#" src="img/logo.png" alt="Tech Ocean" width="50px" height="50px">
+			    </div>
+
+				<div class="collapse navbar-collapse" id="navbar-collapse-main">
+		      		<ul class="nav navbar-nav navbar-right">
+
+						<!-- <li><a href="#intro" title="Home" ></a></li> -->
+						<li><a href="#tech-categories" title="Categories">TECH</a></li>
+<!-- 						<li class="dropdown">
+          					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+          					<span class="caret"></span></a>
+          					<ul class="dropdown-menu">
+            					<li><a href="#">Page 1-1</a></li>
+            					<li><a href="#">Page 1-2</a></li>
+            					<li><a href="#">Page 1-3</a></li> 
+          					</ul>
+        				</li> -->
+
+						<li><a href="#vr" title="Virtual Reality">Virtual Reality</a></li>
+						<li><a href="#ar" title="Augmented Reality">Augmented Reality</a></li>
+						<li><a href="#projection-mapping" title="Projection Mapping">3D Projection Mapping</a></li>
+						<li><a href="#upcoming-tools" title="Upcoming Tools">Upcoming</a></li>
+						<li><a href="#google_map">Contact</a></li>
+		    		</ul>
+				</div>    
+		    </div>
+		</nav>
+		</div>
+		</div> 	
+	</header>
+
+	<section> 
+
+		<div id="home" class="home" class="scrollto"> 
+
+		<div id="second-section"></div> 	
+			
+			<div class="text-vcenter">
+				<h1>DIVING INTO THE TECH OCEAN</h1>
+				<h3>Tools that every techie shall know about</h3>
+<!-- 				<button id="down-arrow" class="btn btn-default btn-lg" width="80px" height="40px"> <a href ="#tech-categories"></a></button> -->
+
+				<a href="#tech-categories" class="btn btn-info btn-lg"><i class="glyphicon glyphicon-chevron-down"></i></a> 
+			</div>
+
+			<div id="background-video-overlay">
+			</div> 	
+
+			<div id="background-video">
+				<video autoplay poster="img/intro_ocean.jpeg" id="bgvid" loop>
+				<source src="vid/intro_waves_bg.mp4" type="video/mp4">
+				</video>
+		
+			
+			
+			</div>
+		</div>
+
+
+		<div id="tech-categories" class="pad-section" class="scrollto">
+			<div class="container">
+	   		
+	   			<h2 class="text-center"></em>TECH</em></h2>
+			    <!-- <background src="img/tech_categories.jpg"/>  -->
+
+			     	
+				<div class="row text-center">
+		      		<div class="col-sm-3 col-xs-6">
+		       		<i class="glyphicon glyphicon-sunglasses" width="24px" height="24px"> </i>
+			        <h4>Virtual Reality</h4>
+			        <p>A three-dimensional, computer generated environment which can be explored and interacted with by a person</p>
+			      	</div>
+
+			     	<div class="col-sm-3 col-xs-6">
+			        <i class="glyphicon glyphicon-phone" width="24px" height="24px"> </i>
+			        <h4>Augmented Reality</h4>
+			        <p>A live view of a real-world environment whose elements are augmented by computer-generated sensory input</p>
+			      	</div>
+
+			      	<div class="col-sm-3 col-xs-6">
+			        <i class="glyphicon glyphicon-blackboard" width="24px" height="24px"> </i>
+					<h4>3D Projection Mapping</h4>
+			        <p>A video tech that transforms objects, often irregularly shaped, into a display surface for video projection</p>
+			      	</div>
+			      
+					<div class="col-sm-3 col-xs-6">
+			        <i class="glyphicon glyphicon-hand-up" width="24px" height="24px"> </i>
+			        <h4>LEAP MOTION</h4>
+			        <p>A small device that sits in front of your computer that allows you to move things with the power of hand movement</p>
+			      	</div> 	
+			    </div>
+			    	<div id="tech-categories-overlay">
+			      	</div>
+			  </div>
+		</div>
+
+		
+		<section id="content" class="scrollto">	
+
+    		<div class="flexslider">
+      			<ul class = "slides">
+
+        			<!-- <li><img src="img/virtual_reality_bg.jpg" alt="Virtual Reality"></li>
+ -->
+        			<li><iframe width="1050" height="591" src="https://www.youtube.com/embed/i4Zt3JZejbg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></li>
+
+        			<li><iframe width="1050" height="591" src="https://www.youtube.com/embed/oH_LfXnklRw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></li>
+
+        			<li><iframe width="1050" height="591" src="https://www.youtube.com/embed/ralwfcuE_Tg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></li>
+
+        			<li><iframe width="1050" height="591" src="https://www.youtube.com/embed/_d6KuiuteIA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></li>
+      			</ul>
+    		</div>
+		</section> 	
+
+
+	    <div id="upcoming-tools" class="pad-section" class="scrollto">
+	    	<div class="container">
+			
+		    <div class="row">
+			      <div class="col-sm-6">
+			        <img src="" alt="" />
+			      </div>
+			    <div class="col-sm-6 text-center">
+			      <h2>Upcoming Tools</h2>
+			      <p class="lead">Coming soon!</p>
+			    </div>
+		    </div>
+	 		</div>
+	    </div> 
+
+<!-- 	    <div id="ar" class="pad-section" class="scrollto">
+	    	<div class="container">
+	    		<background src="/img/virtual_reality_bg.jpg">	
+		    
+		    <div class="row">
+			      <div class="col-sm-6">
+			        <img src="" alt="" />
+			      </div>
+			    <div class="col-sm-6 text-center">
+			      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
+			      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+			    </div>
+		    </div>
+	 		</div>
+	    </div> -->
+
+<!-- 		<div id="projection-mapping" class="pad-section" class="scrollto">
+			<div class="container">
+	    		<img src="/img/virtual_reality_bg.jpg">	
+		    
+		    <div class="row">
+			      <div class="col-sm-6">
+			        <img src="" alt="" />
+			      </div>
+			    <div class="col-sm-6 text-center">
+			      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
+			      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+			    </div>
+		    </div>
+	 		</div>
+	    </div> -->
+
+<!-- 		<div id="upcoming-tools" class="pad-section" class="scrollto">
+			<div class="container">
+	    		<img src="../img/virtual_reality_bg.jpg">	
+		    
+		    <div class="row">
+			      <div class="col-sm-6">
+			        <img src="" alt="" />
+			      </div>
+			    <div class="col-sm-6 text-center">
+			      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
+			      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+			    </div>
+		    </div>
+	 		</div>
+	    </div> -->
+			
+		<div id="google_map" class="scrollto">
+			<iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=General%20Assembly%2C%20New%20York%2C%20NY%2C%20United%20States&key=AIzaSyCnH3FzWytSTZg9q3SXP_IcUflwPQVHR0o"></iframe>
+		</div>
+		
+	<footer class="scrollto">
+	  <hr />
+	  <div class="container">
+	    <p class="text-right">Copyright &copy; Into the Tech Ocean 2015</p>
+	  </div>
+	</footer>
+		
+<!-- <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> -->
+<script type="text/javascript">
+    $('section').horizon();
+</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//cdn.jsdelivr.net/stickynavbar.js/1.1.2/jquery.stickyNavbar.min.js"></script>
+
+</body>
+</html>
+
+
+	
+
+
+

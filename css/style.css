@@ -1,0 +1,331 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html, body {
+height: 100%;
+width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  overflow: scroll;
+}
+
+html, body {
+height: 100%;
+width: 100%;
+}
+
+/*#header {
+    width: 100%;
+    z-index: 100;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+#header-wrap {
+    position: relative;
+}*/
+
+.active {
+    color: #fff !important;
+    text-decoration: underline !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+}
+
+.navbar ul {
+  padding-top: 15px; 
+  margin-right: 0; 
+}
+
+#down-arrow {
+   margin-top: 250px; 
+   border: none;
+   background: none; 
+   background-image: url("../img/down_arrow.png");
+
+
+}
+
+/*.btn-group-lg>.btn, .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  /* line-height: 1.3333333; */
+ /* border-radius: 6px; 
+ 
+}
+.btn-default {
+   background: none; 
+   border: none;
+
+}*/
+
+/*.text-vcenter a {
+  background: url("../img/down_arrow.png") no-repeat 0 -4px;
+}*/
+ 
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 800px;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+/*  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+  background-size: cover;
+  transition: 0s opacity;
+}
+.stopfade { 
+   opacity: .8;
+}
+
+#background-video-overlay {
+  position:absolute;
+  background-color: grey;
+  opacity: .6;
+  width: 100%; 
+  height: 800px; 
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+/*video h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}*/
+
+/*@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(img/intro_ocean.jpeg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}*/
+
+#home {
+  height: 800px;
+
+}
+
+.pad-section {
+/*padding: 50px 0;*/
+}
+
+.pad-section img {
+width: 100%;
+}
+
+.text-vcenter {
+/*display: table-cell;*/
+text-align: center;
+vertical-align: middle;
+padding-top: 350px; 
+position: relative;
+z-index: 100;
+color: #ffffff;
+}
+
+.text-vcenter h1 {
+font-size: 4.5em;
+font-weight: 700;
+margin: 0;
+padding: 0;
+color: #ffffff;
+}
+
+#tech-categories {
+/*background-image: url("../img/tech_categories.jpg");*/
+background-color: #fff; 
+background-repeat: no-repeat;
+background-position: center; 
+width:100%; 
+height:100%;
+background-size: 100% auto; 
+color: #ec719a;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+#tech-categories .glyphicon {
+border: 2px solid #ec719a;
+border-radius: 50%;
+display: inline-block;
+font-size: 60px;
+height: 140px;
+line-height: 140px;
+text-align: center;
+vertical-align: middle;
+width: 140px;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: transparent; 
+  border-color: none; 
+}
+
+/*#tech-categories #tech-categories-overlay {
+  position:relative;
+  background-color: red;
+  opacity: .5;
+  width: 100%; 
+  height: 400px; 
+  top:0;
+  left:0;
+  z-index:1;
+}*/
+
+#nav ul { 
+  /*width: 410px; */
+  /*margin-top: 20px;*/ 
+  width: 80%;
+  height: 100%;
+  float: left;
+/*  margin: 0 10px;*/
+ /* text-align: center; */
+  padding: 0;
+/*  display: inline-block;*/ 
+  font-family: helvetica, arial, sans-serif; 
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none; 
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    padding-bottom: 0;
+    padding-top: 0; 
+    background-color:transparent;
+    color:#000; 
+    transition: all 0.25s ease;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: -15px;
+  margin-left: 0; 
+}
+
+/*.second-section {
+  background-color:#fff;
+}*/
+
+/*section .content {
+  width: 100%;
+  height: 400px;
+}
+
+.flexslider img {
+  position: relative;
+  z-index: 1; 
+}*/
+
+#upcoming-tools {
+  background: url("../img/upcoming-bg.jpg"); 
+  background-repeat: no-repeat;
+  background-position: right-top fixed; 
+  height: 400px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#upcoming-tools h2 {
+  vertical-align: center;
+  color: #ffffff;
+}
+
+#upcoming-tools p {
+  vertical-align: center;
+  color: #ffffff;
+}
+
+
+ 
+/*#ar {
+  background: url("../img/augmented_reality_bg.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center fixed; 
+  height: 400px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+#projection-mapping {
+  background: url("../img/augmented_reality_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center fixed; 
+  height: 400px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+/*iframe {
+  float: right;
+  padding-left: 30px;
+  margin-top: 0px
+}*/
+
+#google_map iframe {
+height: 500px;
+width: 100%; 
+}
+   
+footer {
+padding: 20px 0;
+}
+footer .glyphicon {
+color: #333333;
+font-size: 60px;
+}
+footer .glyphicon:hover {
+color: #306d9f;
+}
+
+
+
+
